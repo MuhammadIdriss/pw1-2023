@@ -1,13 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Set background color for the body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #d5612b;
+background-color: #d5612b;
     color: #333;
     line-height: 1;
     margin: 0;
@@ -42,4 +33,58 @@ section h2 {
     color: #333;
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+table {
+    width :100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td {
+    padding:10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],{
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type]
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    
 }
